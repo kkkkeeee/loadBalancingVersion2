@@ -1,0 +1,10 @@
+      real                rhst,ftime
+      common /flowtimers/ rhst,ftime
+
+      integer               flio_freq
+      common /iofreq_fluid/ flio_freq
+
+      !added by keke
+      real              fluid_time, p_time, tot_comp_time
+      common /flowcommtimers/ fluid_time, p_time, tot_comp_time
+
